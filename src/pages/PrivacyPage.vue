@@ -15,7 +15,12 @@
         <div class="privacy-content">
           <div class="privacy-nav hide-mobile">
             <h4>On this page</h4>
-            <a v-for="section in sections" :key="section.id" :href="'#' + section.id" :class="{ active: activeSection === section.id }">
+            <a
+              v-for="section in sections"
+              :key="section.id"
+              :href="'#' + section.id"
+              :class="{ active: activeSection === section.id }"
+            >
               {{ section.title }}
             </a>
           </div>
@@ -23,9 +28,11 @@
           <div class="privacy-body">
             <div class="privacy-intro card">
               <p>
-                <strong>NoorQuran</strong> ("we", "our", or "us") is committed to protecting your privacy.
-                This Privacy Policy explains how we collect, use, disclose, and safeguard your information
-                when you use our mobile application NoorQuran (the "App"). Please read this policy carefully.
+                <strong>NoorQuran</strong> ("we", "our", or "us") is committed
+                to protecting your privacy. This Privacy Policy explains how we
+                collect, use, disclose, and safeguard your information when you
+                use our mobile application NoorQuran (the "App"). Please read
+                this policy carefully.
               </p>
             </div>
 
@@ -34,31 +41,37 @@
 
               <h3>1.1 Location Data</h3>
               <p>
-                We request access to your device's location <strong>only</strong> to provide accurate prayer times
-                based on your geographic position and to calculate the Qibla direction. Your location data is
-                processed locally on your device and is sent to the Aladhan API solely to compute prayer times.
-                We do not store, track, or share your precise location.
+                We request access to your device's location
+                <strong>only</strong> to provide accurate prayer times based on
+                your geographic position and to calculate the Qibla direction.
+                Your location data is processed locally on your device and is
+                sent to the Aladhan API solely to compute prayer times. We do
+                not store, track, or share your precise location.
               </p>
 
               <h3>1.2 Device Information</h3>
               <p>
-                We may collect minimal, non-personally identifiable device information (such as device type,
-                operating system version, and app version) for the purpose of improving app performance and
+                We may collect minimal, non-personally identifiable device
+                information (such as device type, operating system version, and
+                app version) for the purpose of improving app performance and
                 diagnosing issues.
               </p>
 
               <h3>1.3 In-App Purchases</h3>
               <p>
-                If you subscribe to NoorQuran Premium, your purchase is processed entirely through the
-                Google Play Store or Apple App Store. We do not collect, store, or have access to your payment
-                information (credit card numbers, billing addresses, etc.). Transaction details are managed
-                by Google/Apple according to their respective privacy policies.
+                If you subscribe to NoorQuran Premium, your purchase is
+                processed entirely through the Google Play Store or Apple App
+                Store. We do not collect, store, or have access to your payment
+                information (credit card numbers, billing addresses, etc.).
+                Transaction details are managed by Google/Apple according to
+                their respective privacy policies.
               </p>
 
               <h3>1.4 User Preferences</h3>
               <p>
-                We store your app preferences (such as selected language, theme, reciter choice, bookmarks, and
-                notification settings) locally on your device using standard device storage. This data is not
+                We store your app preferences (such as selected language, theme,
+                reciter choice, bookmarks, and notification settings) locally on
+                your device using standard device storage. This data is not
                 transmitted to any server.
               </p>
             </div>
@@ -75,8 +88,9 @@
                 <li>Improve app stability and performance</li>
               </ul>
               <p>
-                We do <strong>not</strong> use your data for advertising, marketing, profiling,
-                or any purpose other than delivering core app functionality.
+                We do <strong>not</strong> use your data for advertising,
+                marketing, profiling, or any purpose other than delivering core
+                app functionality.
               </p>
             </div>
 
@@ -86,55 +100,100 @@
 
               <div class="service-card">
                 <h4>Aladhan API</h4>
-                <p>Used for prayer time calculations and Hijri date conversion. Your approximate location (latitude/longitude) is sent to calculate prayer times. See <a href="https://aladhan.com/privacy" target="_blank" rel="noopener">Aladhan's Privacy Policy</a>.</p>
+                <p>
+                  Used for prayer time calculations and Hijri date conversion.
+                  Your approximate location (latitude/longitude) is sent to
+                  calculate prayer times. See
+                  <a
+                    href="https://aladhan.com/privacy"
+                    target="_blank"
+                    rel="noopener"
+                    >Aladhan's Privacy Policy</a
+                  >.
+                </p>
               </div>
 
               <div class="service-card">
                 <h4>Al Quran Cloud API</h4>
-                <p>Used to fetch Quran text, translations, and audio recitations. No personal data is sent with these requests.</p>
+                <p>
+                  Used to fetch Quran text, translations, and audio recitations.
+                  No personal data is sent with these requests.
+                </p>
               </div>
 
               <div class="service-card">
                 <h4>Google Play / Apple App Store</h4>
-                <p>Used for app distribution and in-app purchase processing. Subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's</a> and <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's</a> respective privacy policies.</p>
+                <p>
+                  Used for app distribution and in-app purchase processing.
+                  Subject to
+                  <a
+                    href="https://policies.google.com/privacy"
+                    target="_blank"
+                    rel="noopener"
+                    >Google's</a
+                  >
+                  and
+                  <a
+                    href="https://www.apple.com/legal/privacy/"
+                    target="_blank"
+                    rel="noopener"
+                    >Apple's</a
+                  >
+                  respective privacy policies.
+                </p>
               </div>
 
               <div class="service-card">
                 <h4>Expo / EAS</h4>
-                <p>Used for app building and over-the-air updates. See <a href="https://expo.dev/privacy" target="_blank" rel="noopener">Expo's Privacy Policy</a>.</p>
+                <p>
+                  Used for app building and over-the-air updates. See
+                  <a
+                    href="https://expo.dev/privacy"
+                    target="_blank"
+                    rel="noopener"
+                    >Expo's Privacy Policy</a
+                  >.
+                </p>
               </div>
             </div>
 
             <div id="data-storage" class="privacy-section reveal">
               <h2>4. Data Storage & Security</h2>
               <p>
-                All user preferences, bookmarks, and app settings are stored <strong>locally on your device</strong>
-                using AsyncStorage. We do not maintain any external database or server that stores your personal data.
+                All user preferences, bookmarks, and app settings are stored
+                <strong>locally on your device</strong>
+                using AsyncStorage. We do not maintain any external database or
+                server that stores your personal data.
               </p>
               <p>
-                We implement reasonable technical measures to protect the information processed through the App.
-                However, no method of electronic storage is 100% secure, and we cannot guarantee absolute security.
+                We implement reasonable technical measures to protect the
+                information processed through the App. However, no method of
+                electronic storage is 100% secure, and we cannot guarantee
+                absolute security.
               </p>
             </div>
 
             <div id="notifications" class="privacy-section reveal">
               <h2>5. Push Notifications</h2>
               <p>
-                NoorQuran may send local push notifications for prayer time reminders. These notifications are
-                generated entirely on your device based on calculated prayer times. We do not use any external
-                push notification service that would require transmitting your data to third-party servers.
+                NoorQuran may send local push notifications for prayer time
+                reminders. These notifications are generated entirely on your
+                device based on calculated prayer times. We do not use any
+                external push notification service that would require
+                transmitting your data to third-party servers.
               </p>
               <p>
-                You can enable or disable notifications at any time through the app settings or your device's
-                notification settings.
+                You can enable or disable notifications at any time through the
+                app settings or your device's notification settings.
               </p>
             </div>
 
             <div id="children" class="privacy-section reveal">
               <h2>6. Children's Privacy</h2>
               <p>
-                NoorQuran is suitable for users of all ages. We do not knowingly collect personal information
-                from children under 13. The app does not require account creation, and no personal data is
+                NoorQuran is suitable for users of all ages. We do not knowingly
+                collect personal information from children under 13. The app
+                does not require account creation, and no personal data is
                 collected beyond what is described in this policy.
               </p>
             </div>
@@ -143,33 +202,50 @@
               <h2>7. Your Rights</h2>
               <p>You have the right to:</p>
               <ul>
-                <li><strong>Access:</strong> All your data is stored locally on your device and accessible through the app.</li>
-                <li><strong>Delete:</strong> You can clear all app data by uninstalling the app or clearing app data in your device settings.</li>
-                <li><strong>Opt-out:</strong> You can deny location permissions or disable notifications at any time.</li>
-                <li><strong>Portability:</strong> As all data is stored locally, your data goes wherever your device goes.</li>
+                <li>
+                  <strong>Access:</strong> All your data is stored locally on
+                  your device and accessible through the app.
+                </li>
+                <li>
+                  <strong>Delete:</strong> You can clear all app data by
+                  uninstalling the app or clearing app data in your device
+                  settings.
+                </li>
+                <li>
+                  <strong>Opt-out:</strong> You can deny location permissions or
+                  disable notifications at any time.
+                </li>
+                <li>
+                  <strong>Portability:</strong> As all data is stored locally,
+                  your data goes wherever your device goes.
+                </li>
               </ul>
             </div>
 
             <div id="changes" class="privacy-section reveal">
               <h2>8. Changes to This Policy</h2>
               <p>
-                We may update this Privacy Policy from time to time. We will notify you of any changes by
-                updating the "Last updated" date at the top of this page. You are encouraged to review this
-                Privacy Policy periodically.
+                We may update this Privacy Policy from time to time. We will
+                notify you of any changes by updating the "Last updated" date at
+                the top of this page. You are encouraged to review this Privacy
+                Policy periodically.
               </p>
             </div>
 
             <div id="contact" class="privacy-section reveal">
               <h2>9. Contact Us</h2>
               <p>
-                If you have any questions or concerns about this Privacy Policy, please contact us:
+                If you have any questions or concerns about this Privacy Policy,
+                please contact us:
               </p>
               <div class="contact-card card">
                 <div class="contact-item">
                   <span class="contact-icon">📧</span>
                   <div>
                     <strong>Email</strong>
-                    <a href="mailto:contact@noorquran.app">contact@noorquran.app</a>
+                    <a href="mailto:contact@noorquran.app"
+                      >contact@noorquran.app</a
+                    >
                   </div>
                 </div>
                 <div class="contact-item">
@@ -189,47 +265,47 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted } from "vue";
 
-const activeSection = ref('information-collected')
+const activeSection = ref("information-collected");
 
 const sections = [
-  { id: 'information-collected', title: '1. Information Collected' },
-  { id: 'data-usage', title: '2. Data Usage' },
-  { id: 'third-party', title: '3. Third-Party Services' },
-  { id: 'data-storage', title: '4. Data Storage' },
-  { id: 'notifications', title: '5. Notifications' },
-  { id: 'children', title: "6. Children's Privacy" },
-  { id: 'your-rights', title: '7. Your Rights' },
-  { id: 'changes', title: '8. Policy Changes' },
-  { id: 'contact', title: '9. Contact Us' },
-]
+  { id: "information-collected", title: "1. Information Collected" },
+  { id: "data-usage", title: "2. Data Usage" },
+  { id: "third-party", title: "3. Third-Party Services" },
+  { id: "data-storage", title: "4. Data Storage" },
+  { id: "notifications", title: "5. Notifications" },
+  { id: "children", title: "6. Children's Privacy" },
+  { id: "your-rights", title: "7. Your Rights" },
+  { id: "changes", title: "8. Policy Changes" },
+  { id: "contact", title: "9. Contact Us" },
+];
 
 function handleScroll() {
   for (const section of [...sections].reverse()) {
-    const el = document.getElementById(section.id)
+    const el = document.getElementById(section.id);
     if (el && el.getBoundingClientRect().top <= 150) {
-      activeSection.value = section.id
-      break
+      activeSection.value = section.id;
+      break;
     }
   }
 }
 
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
+  window.addEventListener("scroll", handleScroll);
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) entry.target.classList.add('visible')
-      })
+        if (entry.isIntersecting) entry.target.classList.add("visible");
+      });
     },
-    { threshold: 0.1 }
-  )
-  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el))
-})
+    { threshold: 0.1 },
+  );
+  document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+});
 
-onUnmounted(() => window.removeEventListener('scroll', handleScroll))
+onUnmounted(() => window.removeEventListener("scroll", handleScroll));
 </script>
 
 <style scoped>
@@ -355,7 +431,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 }
 
 .privacy-section ul li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0.65rem;

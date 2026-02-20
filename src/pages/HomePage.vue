@@ -24,18 +24,33 @@
             <span class="gradient-text">Quran Companion</span>
           </h1>
 
-          <p class="hero-arabic arabic-text">﴿ إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ ﴾</p>
+          <p class="hero-arabic arabic-text">
+            ﴿ إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ ﴾
+          </p>
           <p class="hero-verse-ref">— Surah Al-Hijr (15:9)</p>
 
           <p class="subtitle hero-desc">
-            Read the Holy Quran with beautiful Tajweed, listen to world-renowned reciters,
-            track your prayer times, and deepen your connection with Allah — all in one beautifully designed app.
+            Read the Holy Quran with beautiful Tajweed, listen to world-renowned
+            reciters, track your prayer times, and deepen your connection with
+            Allah — all in one beautifully designed app.
           </p>
 
           <div class="hero-actions">
-            <a href="https://play.google.com/store/apps/details?id=com.boubakerchieb.noorquran" target="_blank" rel="noopener" class="store-btn google-play">
-              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302-2.302 2.302-2.794-2.302 2.794-2.302zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"/>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.boubakerchieb.noorquran"
+              target="_blank"
+              rel="noopener"
+              class="store-btn google-play"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="currentColor"
+              >
+                <path
+                  d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302-2.302 2.302-2.794-2.302 2.794-2.302zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"
+                />
               </svg>
               <div>
                 <small>GET IT ON</small>
@@ -43,8 +58,15 @@
               </div>
             </a>
             <a href="#" class="store-btn app-store">
-              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="currentColor"
+              >
+                <path
+                  d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"
+                />
               </svg>
               <div>
                 <small>COMING SOON ON</small>
@@ -75,7 +97,11 @@
           <div class="phone-mockup">
             <div class="phone-frame">
               <div class="phone-screen">
-                <img src="/screenshots/1.png" alt="NoorQuran App" class="phone-screenshot" />
+                <img
+                  src="/screenshots/1.png"
+                  alt="NoorQuran App"
+                  class="phone-screenshot"
+                />
               </div>
             </div>
             <!-- Glow effect -->
@@ -90,12 +116,24 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-label">Features</span>
-          <h2>Everything You Need for<br /><span class="gradient-text">Your Spiritual Journey</span></h2>
-          <p class="subtitle" style="margin: 1rem auto 0;">Crafted with love and attention to detail for the best Quran reading experience.</p>
+          <h2>
+            Everything You Need for<br /><span class="gradient-text"
+              >Your Spiritual Journey</span
+            >
+          </h2>
+          <p class="subtitle" style="margin: 1rem auto 0">
+            Crafted with love and attention to detail for the best Quran reading
+            experience.
+          </p>
         </div>
 
         <div class="features-grid">
-          <div v-for="(feature, i) in features" :key="i" class="feature-card card reveal" :style="{ transitionDelay: `${i * 0.1}s` }">
+          <div
+            v-for="(feature, i) in features"
+            :key="i"
+            class="feature-card card reveal"
+            :style="{ transitionDelay: `${i * 0.1}s` }"
+          >
             <div class="feature-icon" :style="{ background: feature.bg }">
               <span v-html="feature.icon"></span>
             </div>
@@ -111,12 +149,23 @@
       <div class="container">
         <div class="text-center reveal">
           <span class="section-label">Showcase</span>
-          <h2>Beautiful & Intuitive<br /><span class="gradient-text">Islamic Design</span></h2>
-          <p class="subtitle" style="margin: 1rem auto 0;">Every detail crafted with Islamic aesthetics in mind — from the geometric patterns to the golden ornaments.</p>
+          <h2>
+            Beautiful & Intuitive<br /><span class="gradient-text"
+              >Islamic Design</span
+            >
+          </h2>
+          <p class="subtitle" style="margin: 1rem auto 0">
+            Every detail crafted with Islamic aesthetics in mind — from the
+            geometric patterns to the golden ornaments.
+          </p>
         </div>
 
         <div class="showcase-row reveal">
-          <div class="showcase-card" v-for="(item, i) in showcaseItems" :key="i">
+          <div
+            class="showcase-card"
+            v-for="(item, i) in showcaseItems"
+            :key="i"
+          >
             <div class="showcase-phone">
               <div class="showcase-screen">
                 <img :src="item.image" :alt="item.label" class="showcase-img" />
@@ -134,11 +183,21 @@
         <div class="languages-layout reveal">
           <div class="languages-info">
             <span class="section-label">Global</span>
-            <h2>Available in<br /><span class="gradient-text">8 Languages</span></h2>
-            <p class="subtitle">NoorQuran speaks your language. The entire app interface is translated, making the Quran accessible to Muslims worldwide.</p>
+            <h2>
+              Available in<br /><span class="gradient-text">8 Languages</span>
+            </h2>
+            <p class="subtitle">
+              NoorQuran speaks your language. The entire app interface is
+              translated, making the Quran accessible to Muslims worldwide.
+            </p>
           </div>
           <div class="languages-grid">
-            <div v-for="(lang, i) in languages" :key="i" class="lang-chip" :style="{ animationDelay: `${i * 0.1}s` }">
+            <div
+              v-for="(lang, i) in languages"
+              :key="i"
+              class="lang-chip"
+              :style="{ animationDelay: `${i * 0.1}s` }"
+            >
               <span class="lang-flag">{{ lang.flag }}</span>
               <div>
                 <strong>{{ lang.name }}</strong>
@@ -156,11 +215,16 @@
         <div class="premium-card reveal">
           <div class="premium-glow"></div>
           <div class="premium-content">
-            <div class="premium-badge">
-              <span>💎</span> Premium
-            </div>
-            <h2>Unlock the Full<br /><span class="gold-text">NoorQuran Experience</span></h2>
-            <p class="subtitle" style="color: rgba(255,255,255,0.8);">Get access to all reciters, every adhan sound, and background audio playback.</p>
+            <div class="premium-badge"><span>💎</span> Premium</div>
+            <h2>
+              Unlock the Full<br /><span class="gold-text"
+                >NoorQuran Experience</span
+              >
+            </h2>
+            <p class="subtitle" style="color: rgba(255, 255, 255, 0.8)">
+              Get access to all reciters, every adhan sound, and background
+              audio playback.
+            </p>
 
             <div class="premium-features">
               <div class="pf-item">
@@ -215,16 +279,47 @@
             <span class="cta-star">✧</span>
             <span class="cta-star">✦</span>
           </div>
-          <h2>Start Your Journey<br />with <span class="gradient-text">NoorQuran</span></h2>
-          <p class="subtitle" style="margin: 0.5rem auto 2rem; text-align: center;">Download free today and bring the Quran closer to your heart.</p>
+          <h2>
+            Start Your Journey<br />with
+            <span class="gradient-text">NoorQuran</span>
+          </h2>
+          <p
+            class="subtitle"
+            style="margin: 0.5rem auto 2rem; text-align: center"
+          >
+            Download free today and bring the Quran closer to your heart.
+          </p>
 
           <div class="cta-buttons">
-            <a href="https://play.google.com/store/apps/details?id=com.boubakerchieb.noorquran" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
-              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302-2.302 2.302-2.794-2.302 2.794-2.302zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"/></svg>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.boubakerchieb.noorquran"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-primary btn-lg"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="currentColor"
+              >
+                <path
+                  d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302-2.302 2.302-2.794-2.302 2.794-2.302zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"
+                />
+              </svg>
               Google Play
             </a>
             <a href="#" class="btn btn-outline btn-lg">
-              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              <svg
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="currentColor"
+              >
+                <path
+                  d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"
+                />
+              </svg>
               App Store (Soon)
             </a>
           </div>
@@ -235,79 +330,79 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted } from "vue";
 
 const features = [
   {
-    icon: '📖',
-    title: 'Full Quran with Tajweed',
-    desc: 'Read all 114 Surahs with color-coded Tajweed rules for perfect pronunciation.',
-    bg: 'linear-gradient(135deg, #E8F5F1, #D4EDE7)',
+    icon: "📖",
+    title: "Full Quran with Tajweed",
+    desc: "Read all 114 Surahs with color-coded Tajweed rules for perfect pronunciation.",
+    bg: "linear-gradient(135deg, #E8F5F1, #D4EDE7)",
   },
   {
-    icon: '🎧',
-    title: 'Audio Recitation',
-    desc: 'Listen to beautiful recitations from world-renowned Qaris with verse-by-verse playback.',
-    bg: 'linear-gradient(135deg, #FEF3E2, #FDE8C8)',
+    icon: "🎧",
+    title: "Audio Recitation",
+    desc: "Listen to beautiful recitations from world-renowned Qaris with verse-by-verse playback.",
+    bg: "linear-gradient(135deg, #FEF3E2, #FDE8C8)",
   },
   {
-    icon: '🕌',
-    title: 'Prayer Times',
-    desc: 'Accurate prayer times based on your location with customizable notification alerts.',
-    bg: 'linear-gradient(135deg, #E8EAF6, #C5CAE9)',
+    icon: "🕌",
+    title: "Prayer Times",
+    desc: "Accurate prayer times based on your location with customizable notification alerts.",
+    bg: "linear-gradient(135deg, #E8EAF6, #C5CAE9)",
   },
   {
-    icon: '🧭',
-    title: 'Qibla Compass',
-    desc: 'Find the exact direction of the Kaaba from anywhere in the world with precision.',
-    bg: 'linear-gradient(135deg, #FFF3E0, #FFE0B2)',
+    icon: "🧭",
+    title: "Qibla Compass",
+    desc: "Find the exact direction of the Kaaba from anywhere in the world with precision.",
+    bg: "linear-gradient(135deg, #FFF3E0, #FFE0B2)",
   },
   {
-    icon: '🔖',
-    title: 'Bookmarks',
-    desc: 'Save and organize your favorite verses for quick access during study or reflection.',
-    bg: 'linear-gradient(135deg, #FCE4EC, #F8BBD0)',
+    icon: "🔖",
+    title: "Bookmarks",
+    desc: "Save and organize your favorite verses for quick access during study or reflection.",
+    bg: "linear-gradient(135deg, #FCE4EC, #F8BBD0)",
   },
   {
-    icon: '🌙',
-    title: 'Ramadan Theme',
-    desc: 'Special emerald & gold Ramadan theme with animated stars, lanterns, and crescent effects.',
-    bg: 'linear-gradient(135deg, #E8F5E9, #C8E6C9)',
+    icon: "🌙",
+    title: "Ramadan Theme",
+    desc: "Special emerald & gold Ramadan theme with animated stars, lanterns, and crescent effects.",
+    bg: "linear-gradient(135deg, #E8F5E9, #C8E6C9)",
   },
   {
-    icon: '📅',
-    title: 'Hijri Calendar',
-    desc: 'Display the current Hijri date alongside Gregorian — never miss an Islamic occasion.',
-    bg: 'linear-gradient(135deg, #F3E5F5, #E1BEE7)',
+    icon: "📅",
+    title: "Hijri Calendar",
+    desc: "Display the current Hijri date alongside Gregorian — never miss an Islamic occasion.",
+    bg: "linear-gradient(135deg, #F3E5F5, #E1BEE7)",
   },
   {
-    icon: '🌍',
-    title: '8 Languages',
-    desc: 'Full app interface in English, Arabic, French, Spanish, Turkish, Urdu, Indonesian & Bengali.',
-    bg: 'linear-gradient(135deg, #E0F7FA, #B2EBF2)',
+    icon: "🌍",
+    title: "8 Languages",
+    desc: "Full app interface in English, Arabic, French, Spanish, Turkish, Urdu, Indonesian & Bengali.",
+    bg: "linear-gradient(135deg, #E0F7FA, #B2EBF2)",
   },
-]
+];
 
 const showcaseItems = [
-  { image: '/screenshots/1.png', label: 'Quran Reader' },
-  { image: '/screenshots/2.png', label: 'Prayer Times' },
-  { image: '/screenshots/3.png', label: 'Qibla' },
-  { image: '/screenshots/4.png', label: 'Bookmarks' },
-  { image: '/screenshots/5.png', label: 'Settings' },
-  { image: '/screenshots/6.png', label: 'Recitation' },
-  { image: '/screenshots/7.png', label: 'More' },
-]
+  { image: "/screenshots/1.png", label: "Quran Reader" },
+  { image: "/screenshots/2.png", label: "Prayer Times" },
+  { image: "/screenshots/3.png", label: "Qibla" },
+  { image: "/screenshots/4.png", label: "Bookmarks" },
+  { image: "/screenshots/5.png", label: "Settings" },
+  { image: "/screenshots/6.png", label: "Recitation" },
+  { image: "/screenshots/7.png", label: "More" },
+];
 
 const languages = [
-  { flag: '🇬🇧', name: 'English', native: 'English' },
-  { flag: '🇸🇦', name: 'Arabic', native: 'العربية' },
-  { flag: '🇫🇷', name: 'French', native: 'Français' },
-  { flag: '🇪🇸', name: 'Spanish', native: 'Español' },
-  { flag: '🇹🇷', name: 'Turkish', native: 'Türkçe' },
-  { flag: '🇵🇰', name: 'Urdu', native: 'اردو' },
-  { flag: '🇮🇩', name: 'Indonesian', native: 'Bahasa' },
-  { flag: '🇧🇩', name: 'Bengali', native: 'বাংলা' },
-]
+  { flag: "🇬🇧", name: "English", native: "English" },
+  { flag: "🇸🇦", name: "Arabic", native: "العربية" },
+  { flag: "🇫🇷", name: "French", native: "Français" },
+  { flag: "🇪🇸", name: "Spanish", native: "Español" },
+  { flag: "🇹🇷", name: "Turkish", native: "Türkçe" },
+  { flag: "🇵🇰", name: "Urdu", native: "اردو" },
+  { flag: "🇮🇩", name: "Indonesian", native: "Bahasa" },
+  { flag: "🇧🇩", name: "Bengali", native: "বাংলা" },
+];
 
 // Intersection Observer for scroll reveal
 onMounted(() => {
@@ -315,15 +410,15 @@ onMounted(() => {
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('visible')
+          entry.target.classList.add("visible");
         }
-      })
+      });
     },
-    { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
-  )
+    { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
+  );
 
-  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el))
-})
+  document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+});
 </script>
 
 <style scoped>
@@ -557,9 +652,22 @@ onMounted(() => {
   animation: star-twinkle 3s ease-in-out infinite;
 }
 
-.star-1 { top: 15%; left: 8%; animation-delay: 0s; }
-.star-2 { top: 25%; right: 10%; animation-delay: 1s; font-size: 0.9rem; }
-.star-3 { bottom: 20%; left: 15%; animation-delay: 2s; }
+.star-1 {
+  top: 15%;
+  left: 8%;
+  animation-delay: 0s;
+}
+.star-2 {
+  top: 25%;
+  right: 10%;
+  animation-delay: 1s;
+  font-size: 0.9rem;
+}
+.star-3 {
+  bottom: 20%;
+  left: 15%;
+  animation-delay: 2s;
+}
 
 .decor-crescent {
   position: absolute;
@@ -740,7 +848,7 @@ onMounted(() => {
 }
 
 .premium-card {
-  background: linear-gradient(135deg, #0D7C66, #095C4B 40%, #06382D);
+  background: linear-gradient(135deg, #0d7c66, #095c4b 40%, #06382d);
   border-radius: var(--radius-xl);
   padding: clamp(3rem, 6vw, 5rem);
   position: relative;
@@ -754,7 +862,11 @@ onMounted(() => {
   right: -20%;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(200, 169, 126, 0.2), transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(200, 169, 126, 0.2),
+    transparent 70%
+  );
   filter: blur(60px);
   pointer-events: none;
 }
@@ -898,8 +1010,12 @@ onMounted(() => {
   animation: star-twinkle 3s ease-in-out infinite;
 }
 
-.cta-star:nth-child(2) { animation-delay: 1s; }
-.cta-star:nth-child(3) { animation-delay: 2s; }
+.cta-star:nth-child(2) {
+  animation-delay: 1s;
+}
+.cta-star:nth-child(3) {
+  animation-delay: 2s;
+}
 
 .cta-buttons {
   display: flex;

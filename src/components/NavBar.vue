@@ -16,12 +16,29 @@
       </div>
 
       <a href="#download" class="btn btn-primary nav-cta hide-mobile">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <polyline points="7 10 12 15 17 10" />
+          <line x1="12" y1="15" x2="12" y2="3" />
+        </svg>
         Download
       </a>
 
       <!-- Mobile hamburger -->
-      <button class="nav-toggle hide-desktop" @click="menuOpen = !menuOpen" :aria-label="menuOpen ? 'Close menu' : 'Open menu'">
+      <button
+        class="nav-toggle hide-desktop"
+        @click="menuOpen = !menuOpen"
+        :aria-label="menuOpen ? 'Close menu' : 'Open menu'"
+      >
         <span :class="{ open: menuOpen }"></span>
       </button>
     </div>
@@ -32,24 +49,26 @@
         <a href="#features" @click="menuOpen = false">Features</a>
         <a href="#screenshots" @click="menuOpen = false">Screenshots</a>
         <a href="#download" @click="menuOpen = false">Download</a>
-        <router-link to="/privacy" @click="menuOpen = false">Privacy Policy</router-link>
+        <router-link to="/privacy" @click="menuOpen = false"
+          >Privacy Policy</router-link
+        >
       </div>
     </transition>
   </nav>
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted } from "vue";
 
-const scrolled = ref(false)
-const menuOpen = ref(false)
+const scrolled = ref(false);
+const menuOpen = ref(false);
 
 function handleScroll() {
-  scrolled.value = window.scrollY > 20
+  scrolled.value = window.scrollY > 20;
 }
 
-onMounted(() => window.addEventListener('scroll', handleScroll))
-onUnmounted(() => window.removeEventListener('scroll', handleScroll))
+onMounted(() => window.addEventListener("scroll", handleScroll));
+onUnmounted(() => window.removeEventListener("scroll", handleScroll));
 </script>
 
 <style scoped>
@@ -152,15 +171,21 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 
 .nav-toggle span::before,
 .nav-toggle span::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
 }
 
-.nav-toggle span::before { top: -7px; }
-.nav-toggle span::after { top: 7px; }
+.nav-toggle span::before {
+  top: -7px;
+}
+.nav-toggle span::after {
+  top: 7px;
+}
 
-.nav-toggle span.open { background: transparent; }
+.nav-toggle span.open {
+  background: transparent;
+}
 .nav-toggle span.open::before {
   top: 0;
   transform: rotate(45deg);

@@ -4,10 +4,34 @@
       <!-- Decorative divider -->
       <div class="footer-ornament">
         <svg viewBox="0 0 200 30" width="200" height="30">
-          <line x1="0" y1="15" x2="80" y2="15" stroke="#C8A97E" stroke-width="1" opacity="0.4" />
-          <circle cx="100" cy="15" r="6" fill="none" stroke="#C8A97E" stroke-width="1" opacity="0.6" />
+          <line
+            x1="0"
+            y1="15"
+            x2="80"
+            y2="15"
+            stroke="#C8A97E"
+            stroke-width="1"
+            opacity="0.4"
+          />
+          <circle
+            cx="100"
+            cy="15"
+            r="6"
+            fill="none"
+            stroke="#C8A97E"
+            stroke-width="1"
+            opacity="0.6"
+          />
           <circle cx="100" cy="15" r="2" fill="#C8A97E" opacity="0.6" />
-          <line x1="120" y1="15" x2="200" y2="15" stroke="#C8A97E" stroke-width="1" opacity="0.4" />
+          <line
+            x1="120"
+            y1="15"
+            x2="200"
+            y2="15"
+            stroke="#C8A97E"
+            stroke-width="1"
+            opacity="0.4"
+          />
         </svg>
       </div>
 
@@ -17,8 +41,13 @@
             <img src="/logo.svg" alt="NoorQuran Logo" width="40" height="40" />
             <span>NoorQuran</span>
           </div>
-          <p class="footer-desc">Your complete Quran companion. Read, listen, and connect with the Holy Quran anywhere, anytime.</p>
-          <p class="footer-arabic arabic-text">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+          <p class="footer-desc">
+            Your complete Quran companion. Read, listen, and connect with the
+            Holy Quran anywhere, anytime.
+          </p>
+          <p class="footer-arabic arabic-text">
+            بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+          </p>
         </div>
 
         <div class="footer-col">
@@ -36,13 +65,20 @@
 
         <div class="footer-col">
           <h4>Download</h4>
-          <a href="https://play.google.com/store/apps/details?id=com.boubakerchieb.noorquran" target="_blank" rel="noopener">Google Play</a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.boubakerchieb.noorquran"
+            target="_blank"
+            rel="noopener"
+            >Google Play</a
+          >
           <a href="#" target="_blank" rel="noopener">App Store (Soon)</a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; {{ new Date().getFullYear() }} NoorQuran. All rights reserved.</p>
+        <p>
+          &copy; {{ new Date().getFullYear() }} NoorQuran. All rights reserved.
+        </p>
         <p class="footer-verse arabic-text">﴿ نُورٌ عَلَىٰ نُورٍ ﴾</p>
       </div>
     </div>
