@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="logoBgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A9B80"/>
+      <stop offset="100%" stop-color="#075E4E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded-square background -->
+  <rect x="4" y="4" width="192" height="192" rx="42" ry="42" fill="url(#logoBgGrad)"/>
+
+  <!-- Subtle inner border -->
+  <rect x="14" y="14" width="172" height="172" rx="34" ry="34"
+        fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- "نور" — large Arabic calligraphy -->
+  <text x="100" y="78" text-anchor="middle"
+        font-family="'Amiri Quran', 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif"
+        font-size="46" fill="#FFFFFF" opacity="0.95">نور</text>
+
+  <!-- "القرآن" — Arabic calligraphy -->
+  <text x="100" y="118" text-anchor="middle"
+        font-family="'Amiri Quran', 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif"
+        font-size="38" fill="#FFFFFF" opacity="0.9">القرآن</text>
+
+  <!-- Decorative separator -->
+  <g opacity="0.35">
+    <line x1="55" y1="135" x2="90" y2="135" stroke="#C8A97E" stroke-width="1" stroke-linecap="round"/>
+    <text x="100" y="138" text-anchor="middle" font-size="8" fill="#C8A97E">✦</text>
+    <line x1="110" y1="135" x2="145" y2="135" stroke="#C8A97E" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- "NOORQURAN" Latin text -->
+  <text x="100" y="160" text-anchor="middle"
+        font-family="'Amiri', 'Georgia', 'Times New Roman', serif"
+        font-size="18" letter-spacing="4" fill="#FFFFFF" opacity="0.8">NOORQURAN</text>
+</svg>
